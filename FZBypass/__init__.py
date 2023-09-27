@@ -28,7 +28,7 @@ class Config:
     AUTH_CHATS      = getenv('AUTH_CHATS', '').split()
     OWNER_ID        = int(getenv('OWNER_ID', 6483614941))
     DIRECT_INDEX    = getenv('DIRECT_INDEX', 'https://tomenbypass.kingfondness.workers.dev').rstrip('/')
-    LARAVEL_SESSION = getenv('LARAVEL_SESSION', '')
+    LARAVEL_SESSION = getenv('LARAVEL_SESSION', '1//04-I1nrtxoPr6CgYIARAAGAQSNwF-L9Ir3tVKovHUTfvU0c0sd4Xj1quiuT5GrU6nX-Ip7GRlRRXxpii4weroXZcMyXX-SKUdcvk')
     XSRF_TOKEN      = getenv('XSRF_TOKEN', '')
     GDTOT_CRYPT     = getenv('GDTOT_CRYPT', 'aFRvYU1nK2xkZFJ2UDN2R3JrN3ZDMWxNWWZUcGQzSEV5cUE5WDRLOGNOND0%3D')
     DRIVEFIRE_CRYPT = getenv('DRIVEFIRE_CRYPT', '')
